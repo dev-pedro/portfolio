@@ -4,3 +4,7 @@ Author: Pedro Henrique<br>
 Contato: [@-mail](mailto:dev.pedro.rjas@gmail.com) | [Linkedin](https://www.linkedin.com/in/pedro-henrique-rjas/) | [GitHub](https://github.com/dev-pedro)
 #
 [Quiz - O Mundo Mágico de Harry Potter](https://portfolio.devpedrohenrique.com.br/quiz/)
+
+![](/home/pedro/git_projects/portfolio/quiz/images/quiz.png)
+
+# 
