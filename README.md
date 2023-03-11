@@ -5,6 +5,6 @@ Contato: [@-mail](mailto:dev.pedro.rjas@gmail.com) | [Linkedin](https://www.link
 #
 [Quiz - O Mundo Mágico de Harry Potter](https://portfolio.devpedrohenrique.com.br/quiz/)
 
-![](/home/pedro/git_projects/portfolio/quiz/images/quiz.png)
+![](https://portfolio.devpedrohenrique.com.br/quiz/images/quiz.png)
 
 # 
