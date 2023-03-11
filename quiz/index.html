@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+    crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Quiz</title>
+  </head>
+  <body class="bg-light">
+    
+    <div class="quiz quiz-title my-0">
+      <h2 class="my-sm-n2 text-black" style="text-align: center">
+        O Mundo Mágico de Harry Potter:
+      </h2>
+      <h6 class="my-sm-3 text-black" style="text-align: center; font-size: 25px">
+        Um Quiz para Bruxos e Trouxas
+      </h6>
+    </div>
+    <div class="intro py-0 bg-primary text-center">
+      <div class="container">
+        <h2 class="text-light display-4 my-4">Quiz</h2>
+      </div>
+    </div>
+
+    <div class="final-score-container py-2 d-none bg-light text-center">
+      <div class="container lead">
+        <p class="text-secondary" style="font-size: 35px">
+          Você acertou
+          <span class="counter text-primary display-3 p-3">0%</span>
+          do quiz!
+        </p>
+        <p class="bruxo-trouxa d-none" style="font-size: 25px">
+          No mundo mágico de "Harry Potter" você pode ser considerado:<br>
+          <span class="bg-warning text-dark display-4 "></span>
+        </p>
+      </div>
+      <div class="trouxa-bruxo d-none text-secondary display-4 p3">
+        <p></p>
+      </div>
+    </div>
+
+    <div class="quiz py-4 bg-light">
+      <div class="container">
+
+        <!-- as perguntas são adicionadas via javascript -->
+        <form class="quiz-form text-black">
+          <div class="questions"></div>
+
+          <!-- botão envio -->
+          <div class="text-center">
+            <button name="button" class="btn bg-primary text-light">
+              Enviar
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
